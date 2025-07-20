@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Aryaman- Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="style-enhanced.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .skill-pill:hover {
+            transform: scale(1.05);
+        }
+        .hero-pattern {
+            background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.1) 0%, rgba(255, 255, 255, 0) 90%);
+        }
+    </style>
+</head>
+
+<body class="landing is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">Aryaman Sharma</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<!-- <li><a href="blog.html">Blog</a></li> -->
+								<li><a href="assets/pdf/resume.pdf">Resume</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Hero Section -->
+    <section class="pt-24 pb-16 md:pt-32 md:pb-24 hero-pattern" id="hero">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="gradient-text">Aryaman Sharma</span></h1>
+                    <div class="inner">
+				<p style="position:relative; top:0px; left:-90px;">I am</span>&nbsp;
+					<span class="headtext" id="text3">an&nbsp;XR Developer</span>
+					<span class="headtext" id="text4">a&nbsp;Computer Vision Engineer</span>
+					<span class="headtext" id="text5">a&nbsp;Postgraduate Researcher</span>
+					<span class="headtext" id="text6">a&nbsp;Photonics Engineer</span>
+				</p>
+			</div><div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/sharma-aryaman" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center transition">
+                            <i class="fab fa-linkedin-in mr-2"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/AryamanSharma17" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-2 rounded-full flex items-center transition">
+                            <i class="fab fa-github mr-2"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div id="gltf-viewer" class="floating" style="width: 400px; height: 300px; margin: 0 auto;"></div>
+					<script type="importmap">
+						{
+							"imports": {
+								"three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+								"three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+							}
+						}
+					</script>
+							</div>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!-- Banner -->
+		<section id="banner">
+			<!-- 3D Model Viewer using three.js and GLTFLoader -->
+			<div id="gltf-viewer" class="floating" style="width: 400px; height: 300px; margin: 0 auto;"></div>
+			<script type="importmap">
+				{
+					"imports": {
+						"three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+						"three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+					}
+				}
+			</script>
+			<script type="module" src="assets/js/gltf-viewer.js"></script>
+			<div class="inner">
+				<h2>Aryaman Sharma</h2>
+				<p style="position:relative; top:0px; left:-90px;">Hi, I am</span>&nbsp;
+					<span class="headtext" id="text1">Aryaman</span>
+					<!-- <span class="headtext" id="text2">a&nbsp;</span> -->
+					<span class="headtext" id="text3">an&nbsp;XR Developer</span>
+					<span class="headtext" id="text4">a&nbsp;Computer Vision Engineer</span>
+					<span class="headtext" id="text5">a&nbsp;Postgraduate Researcher</span>
+					<span class="headtext" id="text6">a&nbsp;Photonics Engineer</span>
+				</p>
+			</div>
+			<a href="#me" class="more scrolly">Learn More</a>
+		</section>
+		<!-- About Me Section -->
+		    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">About Me</h2>
+            <div class="md:flex">
+                <div class="md:w-2/3 md:pr-10">
+                    <p class="text-lg text-gray-700 mb-6">
+                        I am an Engineer with specialization in Applied Optics and Photonics. Currently, I'm pursuing an Erasmus Mundus Joint Master Degree with specialization in Imaging in Extended Reality.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6">
+                        My work focuses on 3D scene understanding, reconstruction, and pose estimation. I'm passionate about pushing the boundaries of visual technology to create immersive experiences.
+                    </p>
+                    <div class="bg-white p-6 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold mb-4 text-indigo-700">Research Interests</h3>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-eye mr-3 text-purple-500"></i>
+                                <span>Multispectral Image Processing</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-robot mr-3 text-blue-500"></i>
+                                <span>Computer Vision</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-brain mr-3 text-indigo-500"></i>
+                                <span>Artificial Intelligence</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-vr-cardboard mr-3 text-green-500"></i>
+                                <span>Eye Tracking</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-cube mr-3 text-red-500"></i>
+                                <span>3D Rendering</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-project-diagram mr-3 text-yellow-500"></i>
+                                <span>3D Reconstruction</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:w-1/3 mt-8 md:mt-0">
+                    <div class="bg-white p-6 rounded-xl shadow-md sticky top-24">
+                        <h3 class="text-xl font-semibold mb-4 text-indigo-700">Education</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-medium">Erasmus Mundus Joint Master Degree</h4>
+                                <p class="text-sm text-gray-600">Imaging in Extended Reality</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Engineering Degree</h4>
+                                <p class="text-sm text-gray-600">Applied Optics and Photonics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+		<section id="skills" class="wrapper style2 special">
+			<div class="inner">
+				<header class="major">
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+					<h2>Skills</h2>
+				</header>
+
+				<body>
+					<div class="skills-category">
+						<h4>Languages</h4>
+						<div class="zoom-img">
+							<div class="skill-item">
+								<i class="fab fa-python" style="font-size: 50px; color: #3776ab;"></i>
+								<span>Python</span>
+							</div>
+							<div class="skill-item">
+								<i class="fab fa-cuttlefish" style="font-size: 50px; color: #00599C;"></i>
+								<span>C++</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-code" style="font-size: 50px; color: #A8B9CC;"></i>
+								<span>C</span>
+							</div>
+							<div class="skill-item">
+								<i class="fab fa-js-square" style="font-size: 50px; color: #F7DF1E;"></i>
+								<span>JavaScript</span>
+							</div>
+							<div class="skill-item">
+								<i class="fab fa-html5" style="font-size: 50px; color: #E34F26;"></i>
+								<span>HTML5</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-square-root-alt" style="font-size: 50px; color: #0076A8;"></i>
+								<span>MATLAB</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills-category">
+						<h4>DevOps Tools</h4>
+						<div class="zoom-img">
+							<div class="skill-item">
+								<i class="fab fa-git-alt" style="font-size: 50px; color: #F05032;"></i>
+								<span>Git</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-code" style="font-size: 50px; color: #5C2D91;"></i>
+								<span>VS Code</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills-category">
+						<h4>Machine Learning Tools and Libraries</h4>
+						<div class="zoom-img">
+							<div class="skill-item">
+								<i class="fas fa-book" style="font-size: 50px; color: #F37626;"></i>
+								<span>Jupyter</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-table" style="font-size: 50px; color: #150458;"></i>
+								<span>Pandas</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-fire" style="font-size: 50px; color: #EE4C2C;"></i>
+								<span>PyTorch</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-brain" style="font-size: 50px; color: #FF6F00;"></i>
+								<span>TensorFlow</span>
+							</div>
+							<div class="skill-item">
+								<i class="fab fa-python" style="font-size: 50px; color: #44A833;"></i>
+								<span>Anaconda</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills-category">
+						<h4>3D Rendering and XR Development Tools</h4>
+						<div class="zoom-img">
+							<div class="skill-item">
+								<i class="fas fa-cube" style="font-size: 50px; color: #000000;"></i>
+								<span>Three.js</span>
+							</div>
+							<div class="skill-item">
+								<i class="fab fa-unity" style="font-size: 50px; color: #000000;"></i>
+								<span>Unity</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-shapes" style="font-size: 50px; color: #F5792A;"></i>
+								<span>Blender</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-eye" style="font-size: 50px; color: #5586A4;"></i>
+								<span>OpenGL</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills-category">
+						<h4>Graphic Design Tools</h4>
+						<div class="zoom-img">
+							<div class="skill-item">
+								<i class="fas fa-image" style="font-size: 50px; color: #31A8FF;"></i>
+								<span>Photoshop</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-pen-nib" style="font-size: 50px; color: #FF9A00;"></i>
+								<span>Illustrator</span>
+							</div>
+							<div class="skill-item">
+								<i class="fas fa-video" style="font-size: 50px; color: #9999FF;"></i>
+								<span>Premiere Pro</span>
+							</div>
+						</div>
+					</div>
+
+				</body>
+			</div>
+		</section>
+
+		<!-- Recent Work -->
+		<section id="Proj" class="wrapper special style3">
+			<div class="inner">
+				<header class="major">
+					<h2>Projects</h2>
+				</header>
+			</div>
+			<div class="row">
+				<article class="col-6 col-4-xsmall work-item">
+					<img src="assets/gifs/Les Furnitures.gif" alt="" style="width: 55%; border-radius: 10px;"/>
+					<h3>Les Furnitures</h3>
+					<p>3D room reconstruction from single images based on estimated depth<br> and visualization using webVR for basic primitives.</p>
+					<p><strong>Laboratoire Hubert Curien, France</strong></p>
+					<div style="margin-top: 15px;">
+						<button onclick="window.open('https://github.com/AryamanSharma17/ScenRec', '_blank')" class="button">Code</button>
+						<button onclick="window.open('assets/pdf/ET_Project_Report.pdf', '_blank')" class="button">Report</button>
+					</div>
+				</article>
+				<article class="col-6 col-12-xsmall work-item zoom-img-2">
+					<a href="images/fulls/03.jpg" class="image thumb"><img src="images/thumbs/03.jpg" alt="" style="border-radius: 10px;" /></a>
+					<h3>Robot Control UEF</h3>
+					<p>UR3e Robot Arm remote control using a VR twin</p>
+					<p><strong>University of Eastern Finland</strong></p>
+					<div style="margin-top: 15px;">
+						<button onclick="window.open('#', '_blank')" class="button">Demo</button>
+					</div>
+				</article>
+				<article class="col-6 col-12-xsmall work-item zoom-img-2">
+					<a href="images/fulls/04.jpg" class="image thumb"><img src="images/thumbs/04.jpg" alt="" style="border-radius: 10px;" /></a>
+					<h3>Eye tracking Data Recording and Analysis for Dementia testing</h3>
+					<p><strong>University of Eastern Finland</strong></p>
+					<div style="margin-top: 15px;">
+						<button onclick="window.open('#', '_blank')" class="button">Details</button>
+					</div>
+				</article>
+				<article class="col-6 col-12-xsmall work-item zoom-img-2">
+					<a href="images/fulls/06.jpg" class="image thumb"><img src="images/thumbs/06.jpg" alt="" style="border-radius: 10px;" /></a>
+					<h3>Studying the effects of Cross-Modality with total immersion in VR</h3>
+					<p><strong>Toyohashi University of Technology, Japan</strong></p>
+					<div style="margin-top: 15px;">
+						<button onclick="window.open('assets/pdf/RXR_Project_Report.pdf', '_blank')" class="button">Report</button>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- Work Experience -->
+
+		<section id="WorkX" class="wrapper special style4">
+			<div class="inner">
+				<header class="major">
+					<h3>Work Experience</h3>
+				</header>
+			</div>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic01.jpg" alt="" style="border-radius: 15px;" /></div>
+				<div class="content">
+					<h2>ReGauss: Relighting 3D Gaussian Splats without data-preprocessing</h2>
+					<p>Developing advanced 3D rendering techniques using Gaussian Splatting for real-time relighting applications. Working on novel approaches to achieve photorealistic rendering without extensive preprocessing.</p>
+					<p><strong>Laboratoire Hubert Curien, France</strong></p>
+					<div style="margin-top: 15px;">
+						<span class="badge">3D Rendering</span>
+						<span class="badge">Computer Vision</span>
+						<span class="badge">Research</span>
+					</div>
+				</div>
+			</section>
+			<section class="spotlight">
+				<div class="image"><img src="images/pic02.jpg" alt="" style="border-radius: 15px;" /></div>
+				<div class="content">
+					<h2>Human Avatar model creation from Multi-view images</h2>
+					<p>Creating realistic human avatars from multiple camera viewpoints using advanced computer vision and machine learning techniques. Focus on real-time performance and accuracy.</p>
+					<p><strong>Laboratoire Hubert Curien, France</strong></p>
+					<div style="margin-top: 15px;">
+						<span class="badge">Machine Learning</span>
+						<span class="badge">3D Reconstruction</span>
+						<span class="badge">Avatar Creation</span>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- Education -->
+		<section id="edu" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2></h2>
+					<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+						fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+				</header>
+				<ul class="features">
+					<li class="icon fa-paper-plane">
+						<h3>Arcu accumsan</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+					<li class="icon solid fa-laptop">
+						<h3>Ac Augue Eget</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+					<li class="icon solid fa-code">
+						<h3>Mus Scelerisque</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+					<li class="icon solid fa-headphones-alt">
+						<h3>Mauris Imperdiet</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+					<li class="icon fa-heart">
+						<h3>Aenean Primis</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+					<li class="icon fa-flag">
+						<h3>Tortor Ut</h3>
+						<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo
+							Aenean ligula consequat consequat.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- More -->
+		<!-- <section id="more" class="wrapper style4">
+			<div class="inner">
+				<header>
+					<h2>Arcue ut vel commodo</h2>
+					<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+				</header>
+				<ul class="actions stacked">
+					<li><a href="#" class="button fit primary">Activate</a></li>
+					<li><a href="#" class="button fit">Learn More</a></li>
+				</ul>
+			</div>
+		</section> -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="mailto:aryaman.aryan@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Aryaman Sharma</li>
+				<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
+
