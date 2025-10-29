@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupHoverEffects();
     
     // Loading animation
-    setupLoadingAnimation();
+    //setupLoadingAnimation();
 });
 
 // Particle Background System
