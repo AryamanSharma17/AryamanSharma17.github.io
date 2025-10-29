@@ -48,7 +48,7 @@
 						<div id="menu">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<!-- <li><a href="blog.html">Blog</a></li> -->
+								<li><a href="pcd.html">3Dvis</a></li>
 								<li><a href="assets/pdf/resume.pdf">Resume</a></li>
 							</ul>
 						</div>
@@ -63,13 +63,14 @@
                 <div class="md:w-1/2 mb-10 md:mb-0">
                     <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="gradient-text">Aryaman Sharma</span></h1>
                     <div class="inner">
-				<p style="position:relative; top:0px; left:-90px;">I am</span>&nbsp;
-					<span class="headtext" id="text3">an&nbsp;XR Developer</span>
-					<span class="headtext" id="text4">a&nbsp;Computer Vision Engineer</span>
-					<span class="headtext" id="text5">a&nbsp;Postgraduate Researcher</span>
-					<span class="headtext" id="text6">a&nbsp;Photonics Engineer</span>
-				</p>
-			</div><div class="flex space-x-4">
+					<p style="position:relative; top:0px; left:-90px;">I am</span>&nbsp;
+						<span class="headtext" id="text3">an&nbsp;XR Developer</span>
+						<span class="headtext" id="text4">a&nbsp;Computer Vision Engineer</span>
+						<span class="headtext" id="text5">a&nbsp;Postgraduate Researcher</span>
+						<span class="headtext" id="text6">a&nbsp;Photonics Engineer</span>
+					</p>
+			</div>
+			<div class="flex space-x-4">
                         <a href="https://www.linkedin.com/in/sharma-aryaman" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center transition">
                             <i class="fab fa-linkedin-in mr-2"></i> LinkedIn
                         </a>
@@ -78,7 +79,25 @@
                         </a>
                     </div>
                 </div>
-                <div class="md:w-1/2 flex justify-center">
+                <!-- <div class="md:w-1/2 flex justify-center">
+                    <div id="gltf-viewer" class="floating" style="width: 400px; height: 300px; margin: 0 auto;"></div>
+					<script type="importmap">
+						{
+							"imports": {
+								"three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+								"three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+							}
+						}
+					</script>
+							</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+		<!-- Banner -->
+		<section id="banner">
+			<!-- 3D Model Viewer using three.js and GLTFLoader -->
+			<div class="md:w-1/2 flex justify-center">
                     <div id="gltf-viewer" class="floating" style="width: 400px; height: 300px; margin: 0 auto;"></div>
 					<script type="importmap">
 						{
@@ -89,35 +108,29 @@
 						}
 					</script>
 							</div>
-                </div>
-            </div>
-        </div>
-    </section>
-		<!-- Banner -->
-		<section id="banner">
-			<!-- 3D Model Viewer using three.js and GLTFLoader -->
-			<div id="gltf-viewer" class="floating" style="width: 400px; height: 300px; margin: 0 auto;"></div>
-			<script type="importmap">
-				{
-					"imports": {
-						"three": "https://unpkg.com/three@0.152.2/build/three.module.js",
-						"three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
-					}
-				}
-			</script>
 			<script type="module" src="assets/js/gltf-viewer.js"></script>
 			<div class="inner">
-				<h2>Aryaman Sharma</h2>
-				<p style="position:relative; top:0px; left:-90px;">Hi, I am</span>&nbsp;
+				<h1 class="text-4xl md:text-5xl font-bold mb-4"><span class="gradient-text">Aryaman Sharma</span></h1>
+				<h2 style="position:relative; top:0px; left:-90px;">Hi, I am</span>&nbsp;
 					<span class="headtext" id="text1">Aryaman</span>
 					<!-- <span class="headtext" id="text2">a&nbsp;</span> -->
 					<span class="headtext" id="text3">an&nbsp;XR Developer</span>
 					<span class="headtext" id="text4">a&nbsp;Computer Vision Engineer</span>
 					<span class="headtext" id="text5">a&nbsp;Postgraduate Researcher</span>
 					<span class="headtext" id="text6">a&nbsp;Photonics Engineer</span>
-				</p>
+				</h2>
 			</div>
-			<a href="#me" class="more scrolly">Learn More</a>
+			<div class="flex space-x-4" style="margin-top: 20px; position: static;">
+                        <a href="https://www.linkedin.com/in/sharma-aryaman" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center transition">
+                            <i class="fab fa-linkedin-in mr-2"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/AryamanSharma17" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-2 rounded-full flex items-center transition">
+                            <i class="fab fa-github mr-2"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<a href="#about" class="more scrolly">Learn More</a>
 		</section>
 		<!-- About Me Section -->
 		    <!-- About Section -->
